@@ -1,3 +1,5 @@
+# Context + Potential New Features
+
 This project was made over the course of 5 months from March 2024 to August 2024 using entirely the Python pygame and perlin-noise libraries. The next thing I wanted to add was block gravity for the TNT block at the very least if possible, but doing this and keeping the FPS high is hard due to the double for loop (for every block check if there is another block under it if not increase it's y velocity), which raises the time complexity from O(B) to O(B^2) where B is the combined length of the blocks list and blocks placed list. I'm sure there is a way to do this using a dictionary or hash set but at this point in time i'm not sure how I would, any help would be appreciated. At this point of time the i've pushed this project to the side.
 
 # Requirements
