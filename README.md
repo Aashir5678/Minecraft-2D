@@ -3,6 +3,7 @@
 To run this project, you must have pygame and the perlin_noise library installed. If you have pip installed, run the following two commands in the command prompt
 
 pip install pygame
+
 pip install perlin-noise
 
 ## minecraft.py
