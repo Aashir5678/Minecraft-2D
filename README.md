@@ -15,3 +15,11 @@ of one day can be shortened by pressing t, or increase the duration by pressing 
 
 ## map_generator.py
 
+Running this file will simply create a window with the randomly smooth generated terrain. Pressing the up arrow will increase the speed of the camera, and the down arrow will slow it down. 
+
+The following commands will only work if the camera isn't moving:
+
+- Pressing space will generate a new random world
+- Pressing e will increase the octave of the current world with the same seed (stretch it out)
+- Pressing q will decrease the octave with the same seed (compress it)
+  
